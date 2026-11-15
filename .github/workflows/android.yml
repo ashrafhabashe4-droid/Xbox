@@ -25,8 +25,6 @@ jobs:
             libncursesw5-dev libtinfo6 cmake \
             libffi-dev libssl-dev automake \
             autopoint gettext
-          sudo apt-get install -y \
-          google-android-build-tools-installer  
 
       - name: Setup Python
         uses: actions/setup-python@v5
